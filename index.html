@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plane War</title>
+    <link rel="stylesheet" type="text/css" href='style.css'>
+
+</head>
+
+<body>
+    <audio id="bgm" loop src="bgm.wav"></audio>
+    <audio id="over" src="over.wav"></audio>
+    <div id="game">
+        <div id="gameStart">
+            <br /><br />
+            <h2>PLANE WAR</h2>
+            <br /><br />
+            <button class="btn-a">Easy</button><br /><br />
+            <button class="btn-b">Mid</button><br /><br />
+            <button class="btn-c">Hard</button>
+        </div>
+
+        <div id='showScore'>Score：<span id="score">0</span>&emsp; &emsp; Highest score：<span id="highest">0</span></div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+    </script>
+    <script type='text/javascript' src='start.js'></script>
+
+
+</body>
+
+</html>
